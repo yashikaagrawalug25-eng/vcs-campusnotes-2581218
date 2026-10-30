@@ -1,1 +1,2 @@
 Hi i am pj
+Feature: CampusNotes project setup
