@@ -1,2 +1,3 @@
 Hi i am pj
 Feature: CampusNotes project setup
+Fix: improve project file clarity
