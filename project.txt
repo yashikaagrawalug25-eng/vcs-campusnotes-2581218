@@ -2,3 +2,4 @@ Hi i am pj
 Feature: CampusNotes project setup
 Fix: improve project file clarity
 Documentation: project usage notes
+Refactor: organize project information
