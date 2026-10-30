@@ -3,3 +3,4 @@ Feature: CampusNotes project setup
 Fix: improve project file clarity
 Documentation: project usage notes
 Refactor: organize project information
+Chore: maintain project metadata
