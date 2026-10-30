@@ -1,0 +1,14 @@
+#!/bin/sh
+
+for file in $(git diff --cached --name-only --diff-filter=ACMR); do
+    case "$file" in
+        .githooks/*) continue ;;
+    esac
+
+    if git show ":$file" | grep -nE 'TODO|FIXME'; then
+        echo "Commit blocked: staged file contains TODO or FIXME."
+        exit 1
+    fi
+done
+
+exit 0
